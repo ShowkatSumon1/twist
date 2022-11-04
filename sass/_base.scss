@@ -1,7 +1,12 @@
+/* Font
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Zilla Slab', serif;
+*/
+
 ///Color varriable
-$color-primary: #f7cc00;
-$color-secondary: #e1f3fd;
-$color-secondary-2: #feeaae;
+$color-primary: #0bbbc1;
+$color-secondary: #373737;
+$color-secondary-2: #888888;
 $color-black: #000;
 $color-white: #fff;
 $shadow-dark: 0 2rem 6rem rgba(0, 0, 0, .3);
@@ -21,7 +26,7 @@ html {
 
 body {
     box-sizing: border-box;
-    font-family: 'Raleway', 'Poppins', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 1.6rem;
     font-weight: 400;
 }
@@ -35,6 +40,11 @@ a {
 }
 
 .container {
-    max-width: 110rem;
+    max-width: 120rem;
     margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
 }

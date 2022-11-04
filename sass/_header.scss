@@ -1,3 +1,23 @@
-h2 {
-    color: red;
+.header {
+    background-color: Yellow;
+
+    .flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-top {
+        padding: 2rem 3rem;
+
+        .menu {
+            display: flex;
+
+            &-item {
+                padding: 0 1rem;
+            }
+            &-link {
+
+            }
+        }
+    }
 }

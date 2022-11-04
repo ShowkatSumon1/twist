@@ -4,8 +4,9 @@
   "description": "for flex",
   "main": "index.js",
   "scripts": {
+    "live": "live-server",
     "watch:sass": "node-sass sass/main.scss css/style.css -w",
-    "start": "npm-run-all --parallel watch:sass",
+    "start": "npm-run-all --parallel watch:sass live",
     
     "compile:sass": "node-sass sass/main.scss css/style.comp.css",
     "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/style.comp.css -o css/style.prefix.css",
